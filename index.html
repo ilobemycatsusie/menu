@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Menu</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .menu {
+      width: 400px;
+      height: 550px;
+      margin: 20px;
+      padding: 20px;
+      border: 2px solid black;
+      color: white;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .menu h2 {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+    }
+
+    .menu ul {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px;
+      list-style-type: none;
+    }
+
+    /* Background images */
+    .breakfast {
+      background-image: url("breakfast.jpg");
+    }
+
+    .lunch {
+      background-image: url("lunch.jpg");
+    }
+
+    .dinner {
+      background-image: url("dinner.jpg");
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Breakfast -->
+    <div class="menu breakfast">
+      <h2>Breakfast</h2>
+      <ul>
+        <li>Pancakes</li>
+        <li>Bacon</li>
+        <li>Strawberry Smoothie</li>
+      </ul>
+    </div>
+
+    <!-- Lunch -->
+    <div class="menu lunch">
+      <h2>Lunch</h2>
+      <ul>
+        <li>Chicken Sandwich</li>
+        <li>Apple</li>
+        <li>Juice</li>
+      </ul>
+    </div>
+
+    <!-- Dinner -->
+    <div class="menu dinner">
+      <h2>Dinner</h2>
+      <ul>
+        <li>Pasta</li>
+        <li>Garlic Bread</li>
+        <li>Water</li>
+      </ul>
+    </div>
+
+  </div>
+
+</body>
+</html>
