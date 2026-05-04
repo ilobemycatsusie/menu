@@ -1,93 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Restaurant Menu</title>
+<style>
+body {
+  background-image: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      display: flex;
-      justify-content: center;
-    }
+.menu {
+  background-color: rgba(255, 140, 0, 0.9);
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid black; /* ONE border only */
+  border-radius: 10px;
+}
 
-    .container {
-      display: flex;
-    }
+h1 {
+  text-align: center;
+  color: white;
+}
 
-    .menu {
-      width: 400px;
-      height: 550px;
-      margin: 20px;
-      padding: 20px;
-      border: 2px solid black;
-      color: white;
-      background-size: cover;
-      background-position: center;
-    }
+h2 {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
 
-    .menu h2 {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 10px;
-    }
+ul {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+}
 
-    .menu ul {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 10px;
-      list-style-type: none;
-    }
-
-    /* Background images */
-    .breakfast {
-      background-image: url("breakfast.jpg");
-    }
-
-    .lunch {
-      background-image: url("lunch.jpg");
-    }
-
-    .dinner {
-      background-image: url("dinner.jpg");
-    }
-
-  </style>
+li {
+  padding: 5px 0;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="container">
+<div class="menu">
+  <h1>My Menu</h1>
 
-    <!-- Breakfast -->
-    <div class="menu breakfast">
-      <h2>Breakfast</h2>
-      <ul>
-        <li>Pancakes</li>
-        <li>Bacon</li>
-        <li>Strawberry Smoothie</li>
-      </ul>
-    </div>
+  <h2>Breakfast</h2>
+  <ul>
+    <li>Eggs</li>
+    <li>Bacon</li>
+    <li>Orange Juice</li>
+  </ul>
 
-    <!-- Lunch -->
-    <div class="menu lunch">
-      <h2>Lunch</h2>
-      <ul>
-        <li>Chicken Sandwich</li>
-        <li>Apple</li>
-        <li>Juice</li>
-      </ul>
-    </div>
+  <h2>Lunch</h2>
+  <ul>
+    <li>Sandwich</li>
+    <li>Strawberries</li>
+    <li>Carrots</li>
+  </ul>
 
-    <!-- Dinner -->
-    <div class="menu dinner">
-      <h2>Dinner</h2>
-      <ul>
-        <li>Pasta</li>
-        <li>Garlic Bread</li>
-        <li>Water</li>
-      </ul>
-    </div>
-
-  </div>
+  <h2>Dinner</h2>
+  <ul>
+    <li>Pasta</li>
+    <li>Broccoli</li>
+    <li>Ice Cream</li>
+  </ul>
+</div>
 
 </body>
 </html>
