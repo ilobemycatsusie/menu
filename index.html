@@ -1,71 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 <style>
-body 
-  background-size: cover;
-  font-family: Arial, sans-serif;
-  margin: 0;
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
 }
 
-.menu {
-  background-color: rgba(255, 140, 0, 0.9);
-  width: 300px;
-  margin: 40px auto;
-  padding: 20px;
-  border: 3px solid black;
-  border-radius: 10px;
+.menu{
+    width: 400px;
+    height: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid black;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-h1 {
-  background-image: url('breakfast.jpg');
-  text-align: center;
-  color: white;
-  
-
-h2 {
-  color: white;
-  border-bottom: 2px solid white;
-  padding-bottom: 5px;
+.breakfast{
+    background-image: url('breakfast.jpg');
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  color: white;
+.lunch{
+    background-image: url('lunch.jpeg');
 }
 
-li {
-  padding: 5px 0;
+.dinner{
+    background-image: url('dinner.jpg');
 }
+
+h1{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+ul{
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+li{
+    padding: 8px;
+}
+
 </style>
 </head>
 
 <body>
 
-<div class="menu">
-  <h1>My Menu</h1>
+<div class="menu breakfast">
+    <h1>Breakfast Menu</h1>
+    <ul>
+        <li>Eggs</li>
+        <li>Bacon</li>
+        <li>Orange Juice</li>
+    </ul>
+</div>
 
-  <h2>Breakfast</h2>
-  <ul>
-    <li>Eggs</li>
-    <li>Bacon</li>
-    <li>Orange Juice</li>
-  </ul>
+<div class="menu lunch">
+    <h1>Lunch Menu</h1>
+    <ul>
+        <li>Sandwich</li>
+        <li>Strawberries</li>
+        <li>Carrots</li>
+    </ul>
+</div>
 
-  <h2>Lunch</h2>
-  <ul>
-    <li>Sandwich</li>
-    <li>Strawberries</li>
-    <li>Carrots</li>
-  </ul>
-
-  <h2>Dinner</h2>
-  <ul>
-    <li>Pasta</li>
-    <li>Broccoli</li>
-    <li>Ice Cream</li>
-  </ul>
+<div class="menu dinner">
+    <h1>Dinner Menu</h1>
+    <ul>
+        <li>Pasta</li>
+        <li>Broccoli</li>
+        <li>Ice cream</li>
+    </ul>
 </div>
 
 </body>
